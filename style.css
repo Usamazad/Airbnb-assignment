@@ -1,108 +1,108 @@
-.logo{
-    /* border: 1px solid black; */
-    width: 9%;
-    margin: 41px 48px;
+.logo {
+    position: fixed;
+    top: 0;
+    width: 99%;
     color: #04f724;
- 
-}
-
-
-
-
-
-
-.center{
-    /* border: 1px solid black; */
     display: flex;
-  margin: -23px 511px;
-  width: 213px;
-  list-style: none;
-  gap: 35px;
-  color: black;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px 0px;
 }
-.center li{
+
+
+
+
+
+
+.center {
+    display: flex;
+    width: 213px;
+    list-style: none;
+    gap: 35px;
+    color: black;
+}
+
+.center li {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
 
 }
-#light{
+
+#light {
     opacity: 0.4;
 }
 
 
-.right li{
-    /* border: 1px solid black; */
+.right {
     display: flex;
-  width: 119%;
-  margin: 1px 1061px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: larger;
-   
+    align-items: center;
+    gap: 20px
 }
-.right svg{
-    margin: -20px 1239px;
+
+.right li {
+    display: flex;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+
+}
+
+.right .worldIcon {
     color: rgb(228, 27, 27);
 
 }
 
-.selections{
-    /* border: 1px solid black; */
+.selections {
+    margin: 0px 20px 0px 0px;
     box-shadow: 0px 0px 12px #cfb1b1;
     color: #18afc7;
-    width: 55%;
     display: flex;
-    margin: -33px 1269px;
     padding: 6px 12px;
     gap: 24px;
     align-items: center;
     border-radius: 26px;
 }
 
-
-.container{
-    /* border: 1
-    px solid black; */
+.filters {
     box-shadow: 0px 0px 12px #cbb8b8;
     width: 64%;
-    display: flex
-;
+    display: flex;
     border-radius: 40px;
     align-items: center;
     gap: 110px;
-    margin: 74px 491px;
-    /* justify-content: space-between; */
+    margin: 100px 0px 0px 491px;
     padding: 0px 18px
-    
 }
-.container p{
+
+.filters p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- 
+
 }
 
 
-.searchlogo{
-    /* border: 1px solid black; */
+.searchlogo {
     box-shadow: 0px 0px 12px #cbb8b8;
     background-color: #09e21b;
     color: rgb(236, 243, 239);
     border-radius: 50%;
     padding: 16px 18px;
     margin: 1px 45px;
-  
-   
+
+
 }
 
 
 
 
-.light-colour{
-    opacity: 0.6;
+.light-colour {
+   color:darkgray
 }
 
 
 
-.boxcard{
-    /* border: 1px solid black; */
+.boxcard {
     border-radius: 12px;
     box-shadow: 0px 0px 12px #a19898;
     margin: 116px 61px;
@@ -111,13 +111,14 @@
     width: 325px;
     font-size: larger;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-    
-    
+
+
+
 
 
 }
-.boxcard img{
+
+.boxcard img {
     text-align: center;
     border-radius: 12px;
     height: 333px;
@@ -128,15 +129,6 @@
 
 
 
-#new{
+#new {
     margin: 12px 12px;
 }
-
-
-
-
-
-
-
- 
-
